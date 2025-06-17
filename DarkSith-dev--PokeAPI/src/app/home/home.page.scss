@@ -1,0 +1,45 @@
+
+ion-header{
+  ion-toolbar{
+    --background: rgba(0,0,0,0);
+  }
+  h4{
+    font-weight:bold ;
+    font-size: 24px;
+  }
+
+  .titles{
+    padding: 0 2rem;
+  }
+
+  ion-searchbar{
+    position: relative;
+    left: -18px;
+
+  }
+
+  ion-icon{
+    color: rgb(21, 25, 29);
+  }
+
+
+
+.imagem{
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+  img{
+    width: 250px;
+    height: 230px;
+    transform: scale(1.2, 1.2);
+    opacity: .2;
+    position: absolute;
+    top: -130px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+
+  }
+
+}
+
